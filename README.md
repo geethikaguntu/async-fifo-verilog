@@ -75,3 +75,9 @@ This project demonstrates concepts including:
 * Full/empty detection
 * Verilog testbench development
 * Simulation-based verification
+
+## Simulation Waveform
+
+The FIFO was simulated using independent read and write clocks. The waveform shows data being written into the FIFO and subsequently read out in the correct order.
+
+![Simulation Waveform](waveform.png)
