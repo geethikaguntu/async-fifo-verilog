@@ -125,5 +125,9 @@ module async_fifo_tb;
 
         $finish;
     end
+    initial begin
+        $dumpfile("async_fifo.vcd");
+        $dumpvars(0, async_fifo_tb);
+    end
 
 endmodule
